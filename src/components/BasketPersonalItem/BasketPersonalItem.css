@@ -1,0 +1,17 @@
+.pizza-ingredient {
+    padding: 3px;
+    margin: 3px;
+    background: rgb(197, 201, 199);
+    border-radius: 10px;
+}
+
+.lines-space {
+    line-height: 40px;
+}
+
+.basket-item__second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}

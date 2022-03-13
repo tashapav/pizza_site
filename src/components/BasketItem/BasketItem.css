@@ -1,0 +1,15 @@
+.basket-item {
+    border: 1px solid rgb(3, 49, 3);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px 60px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.basket-item__second span {
+    padding-right: 10px;
+}

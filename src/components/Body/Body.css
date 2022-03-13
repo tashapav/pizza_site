@@ -1,0 +1,24 @@
+.body-wrapper {
+    padding: 16px;
+}
+
+.pizza-type-nav > * {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-size: 600;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.pizza-type-nav .active {
+    color: darkgreen;
+}
+
+.pizza-type-nav {
+    display: inline;
+    padding: 10px;
+    background-color: rgb(145, 229, 145);
+    border-radius: 12px;
+}

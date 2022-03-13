@@ -1,0 +1,30 @@
+.pizza-item-wrapper {
+    height: 340px;
+    width: 280px;
+    margin: 15px;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid darkgreen;
+    border-radius: 12px;
+}
+
+.pizza-img {
+    height: 180px;
+    width: auto;
+    border-radius: 12px;
+}
+
+.pizza-title {
+    font-size: 23px;
+    font-weight: 800;
+    color: rgb(3, 49, 3);
+}
+
+.pizza-price {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(3, 49, 3);
+}

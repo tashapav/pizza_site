@@ -1,0 +1,18 @@
+.btn {
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin-right: 4px;
+    font-size: 18px;
+    border-radius: 12px;
+    color: white;
+    background-color: darkgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: darkgreen;
+}

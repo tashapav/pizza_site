@@ -1,0 +1,15 @@
+.personal-pizza {
+    margin: 15px 0;
+    padding: 25px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.personal-pizza__main-text {
+    color: rgb(3, 49, 3);
+}
+
+.ingredient-list {
+    padding: 15px 0;
+}
+
