@@ -9,12 +9,13 @@ function Body() {
     return(
         <div className="body-wrapper">
             <nav className="pizza-type-nav">
-                <NavLink to="/">Меню</NavLink>
-                <NavLink to="/ownpizza">Собери пиццу</NavLink>
+                <NavLink to="/pizza_site/">Меню</NavLink>
+                <NavLink to="/pizza_site/ownpizza">Собери пиццу</NavLink>
             </nav>
+            
             <Routes>
-                <Route path="/" element={<PizzaList />} />
-                <Route path="/ownpizza" element={<PersonalPizza />} />
+                    <Route path="/pizza_site/" element={<PizzaList />} />
+                    <Route path="/pizza_site/ownpizza" element={<PersonalPizza />} />
             </Routes>
         </div>
     )
